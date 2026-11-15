@@ -3,7 +3,6 @@
 
 ![Python](https://img.shields.io/badge/Python-pandas-blue?style=for-the-badge&logo=python)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-red?style=for-the-badge&logo=microsoftsqlserver)
-![Excel](https://img.shields.io/badge/Excel-Validation-green?style=for-the-badge&logo=microsoftexcel)
 ![Power BI](https://img.shields.io/badge/Tools-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
 ![Status](https://img.shields.io/badge/Status-Completed-green?style=for-the-badge)
 
@@ -123,7 +122,6 @@ Designed and completed 4 dashboard pages in Power BI:
 ├── data/                  # Download link for the raw survey (file not included, over 100 MB)
 ├── python/                # 01_clean_stackoverflow_2025.py
 ├── sql/                   # Table creation, BULK INSERT and T-SQL analysis queries
-├── excel/                 # Validation pivot table screenshot
 ├── outcome/               # Visual captures of the 4 dashboard pages
 └── README.md              # Project documentation
 ```
