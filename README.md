@@ -14,8 +14,7 @@ This project analyzes the **Stack Overflow Developer Survey 2025**, one of the l
 
 The analysis follows a full workflow with four tools:
 *   **Python (pandas):** data cleaning and reshaping.
-*   **SQL Server (T-SQL):** data storage and analytical queries.
-*   **Excel:** validation of record counts and averages with pivot tables.
+*   **SQL Server (SQL):** data storage and analytical queries.
 *   **Power BI:** an interactive 4-page dashboard.
 
 ### 🎯 Requirements & Objectives
@@ -71,15 +70,11 @@ Nine queries (Q1 to Q9) covering:
 8.  Average salary by language.
 9.  Top roles among professional developers.
 
-### Step 5: Excel Validation
-*   Opened `respondents.csv` in Excel and built pivot tables for record counts and average job satisfaction by experience band.
-*   Compared them with the SQL results to confirm the pipeline was consistent.
-
-### Step 6: Data Modeling and DAX in Power BI
+### Step 5: Data Modeling and DAX in Power BI
 *   Connected Power BI to the three tables. `respondents` is the central table with one-to-many relationships to `tech_long` and `roles_long` (the role relationship filters in both directions so salary can be split by role).
 *   Created DAX measures: `Respondents`, `Median Salary`, `Salary Rows`, `Median Salary Min100` (blank when a group has fewer than 100 salary responses), `Avg Job Sat`, `Tech Users`, `Tech Answerers`, `% of Answerers` and `Daily AI %`.
 
-### Step 7: Dashboard Design & Visualization
+### Step 6: Dashboard Design & Visualization
 Designed and completed 4 dashboard pages in Power BI:
 1.  **Overview:** KPI cards (respondents, median salary, average job satisfaction), top 10 countries by respondents, and slicers for age, experience and country.
 2.  **Technology Trends:** used vs wanted comparison for the top 10 technologies with a category slicer (language, database, platform, web framework), plus a table of the most wanted technologies.
