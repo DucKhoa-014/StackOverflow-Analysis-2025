@@ -124,7 +124,6 @@ Designed and completed 4 dashboard pages in Power BI:
 ├── python/                # 01_clean_stackoverflow_2025.py
 ├── sql/                   # Table creation, BULK INSERT and T-SQL analysis queries
 ├── excel/                 # Validation pivot table screenshot
-├── powerbi/               # so2025_dashboard.pbix
 ├── outcome/               # Visual captures of the 4 dashboard pages
 └── README.md              # Project documentation
 ```
