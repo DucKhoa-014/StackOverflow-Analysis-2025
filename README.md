@@ -2,7 +2,7 @@
 # Stack Overflow Developer Survey 2025 Analysis
 
 ![Python](https://img.shields.io/badge/Python-pandas-blue?style=for-the-badge&logo=python)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-red?style=for-the-badge&logo=microsoftsqlserver)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-SQL-red?style=for-the-badge&logo=microsoftsqlserver)
 ![Power BI](https://img.shields.io/badge/Tools-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
 ![Status](https://img.shields.io/badge/Status-Completed-green?style=for-the-badge)
 
